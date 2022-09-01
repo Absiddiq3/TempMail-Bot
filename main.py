@@ -21,6 +21,7 @@ while True:
 '''
 Hey.,
 Welcome to Xery Mail Bot
+
 Usage:
 📌 To Generate emails by clicking on the button "Generate email"
 📌 To refresh your inbox click on the button "Refresh inbox"
