@@ -1,6 +1,4 @@
-# copyright 2020-21 @Mohamed Rizad
-# Telegram @riz4d
-# Instagram @riz.4d
+#dev : Abubakar 
 import telebot
 import requests
 from telebot.types import InlineKeyboardButton
@@ -22,13 +20,13 @@ while True:
             bot.send_message(message.chat.id,
 '''
 Hey.,
-Welcome to MysteryMail Bot
+Welcome to Xery Mail Bot
 Usage:
 ➪ To Generate emails by clicking on the button "Generate email"
 ➪ To refresh your inbox click on the button "Refresh inbox"
 ➪ After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
                               
-Dev : @riz4d
+Dev : @xerysiddiq
 ''',
                              reply_markup=keyboard)
 
@@ -48,16 +46,16 @@ Dev : @riz4d
             elif message.text.lower() == 'about':
                 bot.send_message(message.chat.id,
 '''
-What is Mystery Mail?
+What is Xery Mail?
 
 - it is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail
 
-How Mystery Mail Become Safer You?
+How Xery Mail Become Safer You?
 
 - Using the temporary mail allows you to completely protect your real mailbox against the loss of personal information. Your temporary e-mail address is completely anonymous. Your details: information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential.
 
-➪ Bot Name : MysteryMail
-➪ Author : @riz4d
+➪ Bot Name : Xery Mail 
+➪ Author : @xerysiddiq
 ➪ Language : Python''')
             elif message.text.lower()[14] == "[":
                 email = message.text.lower()[15:message.text.lower().find("]")]
@@ -108,4 +106,4 @@ How Mystery Mail Become Safer You?
     except BaseException:
         pass
         
-# Stay tuned for more : Instagram @riz.4d
+# Stay tuned for more : Instagram @abubakar_abby
