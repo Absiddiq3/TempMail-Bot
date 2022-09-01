@@ -22,11 +22,11 @@ while True:
 Hey.,
 Welcome to Xery Mail Bot
 Usage:
-➪ To Generate emails by clicking on the button "Generate email"
-➪ To refresh your inbox click on the button "Refresh inbox"
-➪ After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
+📌 To Generate emails by clicking on the button "Generate email"
+📌 To refresh your inbox click on the button "Refresh inbox"
+📌 After a new letter arrives, you will see a button with a subject line, click on this button to read the message.
                               
-Dev : @xerysiddiq
+Dev 👨‍💻 : @xerysiddiq
 ''',
                              reply_markup=keyboard)
 
@@ -54,9 +54,9 @@ How Xery Mail Become Safer You?
 
 - Using the temporary mail allows you to completely protect your real mailbox against the loss of personal information. Your temporary e-mail address is completely anonymous. Your details: information about your person and users with whom you communicate, IP-address, e-mail address are protected and completely confidential.
 
-➪ Bot Name : Xery Mail 
-➪ Author : @xerysiddiq
-➪ Language : Python''')
+➪ Bot Name 🤖: Xery Mail 
+➪ Developer 👨‍💻: @xerysiddiq
+➪ Language 🈵: Python''')
             elif message.text.lower()[14] == "[":
                 email = message.text.lower()[15:message.text.lower().find("]")]
                 bkeyboard = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
