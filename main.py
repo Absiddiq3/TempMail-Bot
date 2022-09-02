@@ -3,7 +3,7 @@ import telebot
 import requests
 from telebot.types import InlineKeyboardButton
 
-# Fillout Here The BotToken it gets from botfather further queries @riz4d 0n telegram
+# Fillout Here The BotToken it gets from botfather further queries @xerysiddiq 0n telegram
 bot = telebot.TeleBot('5736296271:AAFfzsIkSso6BaiW1DSkN-8KtHxNUJESrP8')
 
 while True:
